@@ -1,0 +1,39 @@
+body { 
+	font-family: Gentium Basic;
+    color: orange;
+    background-color: black;
+    margin: 10px;
+}
+
+h1 { 
+	font-size: 20px;
+}
+
+p { 
+	font-size: 15px; 
+}
+
+INPUT{
+    margin: 5px;
+    display: block;
+    font-size: 15px;
+}
+
+form{
+    width: 400px;
+    padding: 1px;
+    border: 1px dotted white;
+    border-radius: 5px;
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.blanc{
+    background-color: white;
+}
+
+.rouge{
+    background-color: red;
+}
