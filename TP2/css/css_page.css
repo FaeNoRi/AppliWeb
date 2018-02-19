@@ -1,16 +1,17 @@
 body { 
 	font-family: Gentium Basic;
-    color: orange;
-    background-color: black;
+    color: black;
+    background-color: white;
     margin: 10px;
 }
 
 h1 { 
-	font-size: 20px;
+	font-size: 26px;
 }
 
 p { 
-	font-size: 15px; 
+	font-size: 18px;
+    width:99%;
 }
 
 INPUT{
@@ -20,20 +21,32 @@ INPUT{
 }
 
 form{
-    width: 400px;
-    padding: 1px;
-    border: 1px dotted white;
-    border-radius: 5px;
+    display: block;
+    margin:20px;
+    width: 250px;
+}
+
+img{
+    margin:auto;
+    width: 99%;
 }
 
 .bleu{
     background-color: blue;
 }
 
-.blanc{
-    background-color: white;
+.vert{
+    background-color: green;
 }
 
 .rouge{
     background-color: red;
 }
+
+
+/*
+@media screen (max-width: 1500px) & (min-width: 1024px){
+    
+}
+*/
+
