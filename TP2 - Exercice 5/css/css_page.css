@@ -1,9 +1,34 @@
-body { 
-	font-family: Gentium Basic;
+body { font-family: Gentium Basic; }
+
+header{ 
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black; 
+    text-align: justify;
+    background-color: #c9963d;
 }
+
+span{ display: inline-block; }
+
+span.img1 { margin: 50px; }
+span.img2 { margin: 50px; }
+span.img3 { margin: 50px; }
+span.img4 { margin: 50px; }
+
+span.maps { border-right: 1px solid black; }
+
+div.galery{ width: 100%; }
 
 
 /*////////////////////// Textes ////////////////////////////////*/
+
+
+/*////////////////////// Menus //////////////////////////////*/
+
+p.menu{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: right;
+}
 
 
 /*////////////////////// Tableaux //////////////////////////////*/
@@ -11,9 +36,20 @@ body {
 
 /*////////////////////// Formulaires ///////////////////////////*/
 
+form.recherche{ margin-left: 25px; }
 
-/*////////////////////// Images ///////////////////////////////*/
+#Inscription input{
+    margin: 15px;
+}
 
+/*////////////////////// Images ////////////////////////////////*/
 
-/*////////////////////// Responsive ///////////////////////////*/
+img#logo{ 
+    margin-left: 25px;
+    margin-right: 400px;
+}
+
+iframe{ margin : 35px; }
+
+/*////////////////////// Responsive ////////////////////////////*/
 
