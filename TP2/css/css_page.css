@@ -6,47 +6,100 @@ body {
 }
 
 h1 { 
-	font-size: 26px;
+	font-size: 1.6rem;
+    text-align: center;
+}
+
+h2 { 
+	font-size: 1.4rem;
 }
 
 p { 
-	font-size: 18px;
+	font-size: 1.2rem;
     width:99%;
+    text-align: center;
+}
+
+table {
+    margin: 5px;
+    width: auto;
+	border-style : solid;
+	border-color: black;
+	text-align : center;
+    border-collapse: collapse;
+}
+
+th{
+    border-style : solid;
+	border-color: black;
+}
+
+td{
+    border-style : solid;
+	border-color: black;
+	width : 150px;
 }
 
 INPUT{
     margin: 5px;
     display: block;
-    font-size: 15px;
+    font-size: 1.2rem;
+    width: auto;
 }
 
 form{
     display: block;
-    margin:20px;
-    width: 250px;
-}
-
-img{
-    margin:auto;
     width: 99%;
 }
 
-.bleu{
-    background-color: blue;
+img#calais{
+    display: block;
+    margin:auto;
+    width: 99%;
+
 }
 
-.vert{
-    background-color: green;
+img#logo{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
-.rouge{
-    background-color: red;
-}
+.bleu{ background-color: blue; }
+
+.vert{ background-color: green; }
+
+.rouge{ background-color: red; }
 
 
-/*
-@media screen (max-width: 1500px) & (min-width: 1024px){
+/*////////////////////// Responsive ///////////////////////////*/
+
+@media screen and (max-width: 360px){
+    h1{ font-size: 1.5rem;; }
     
+    h2{ font-size: 13px; }
+    
+    p { font-size: 11px; }
+    
+    form{ width: 50%; }
+    
+    input{
+        font-size: 10px;
+    }
 }
-*/
+
+@media screen and (max-width: 480px) and (min-width: 361px){
+    h1{ font-size: 18px; }
+    
+    h2{ font-size: 16px; }    
+    
+    p{ font-size: 14px; }
+    
+    form{ width: 75%; }
+    
+    input{
+        font-size: 14px;
+    }
+}
 
