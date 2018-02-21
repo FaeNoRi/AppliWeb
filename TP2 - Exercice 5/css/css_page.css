@@ -1,152 +1,19 @@
 body { 
 	font-family: Gentium Basic;
-    color: white;
-/*    background-color: white;*/
-    margin: 10px;
-    background-image: url(../img/bg.jpg);
-    background-size: cover;
 }
 
 
-/*////////////////////// Texte /////////////////////////*/
-
-h1 { 
-	font-size: 1.6rem;
-    text-align: center;
-}
-
-h2 { 
-	font-size: 1.4rem;
-}
-
-p { 
-	font-size: 1.2rem;
-    width:99%;
-    text-align: center;
-}
-
-/*
-.bleu{ background-color: blue; }
-
-.vert{ background-color: green; }
-
-.rouge{ background-color: red; }
-*/
-
-/*////////////////////// Tableau /////////////////////////*/
-
-table {
-    margin: 5px;
-    width: auto;
-	text-align : center;
-    border-collapse: collapse;
-}
-
-th{
-    border-style : solid;
-	border-color: black;
-    background-color: lightgrey;
-    text-align : center;
-
-}
-
-td{
-    border-style : solid;
-	border-color: black;
-	width : 150px;
-    text-align : center;
-}
+/*////////////////////// Textes ////////////////////////////////*/
 
 
-/*////////////////////// Formulaire /////////////////////////*/
-
-form{
-    display: block;
-    width: 99%;
-}
-
-INPUT{
-    margin: 5px;
-    display: block;
-    font-size: 1.2rem;
-    width: auto;
-}
+/*////////////////////// Tableaux //////////////////////////////*/
 
 
-/*////////////////////// Images /////////////////////////*/
+/*////////////////////// Formulaires ///////////////////////////*/
 
-img#calais{
-    display: block;
-    margin:auto;
-    width: 99%;
 
-}
-
-img#logo{
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto; 
-}
+/*////////////////////// Images ///////////////////////////////*/
 
 
 /*////////////////////// Responsive ///////////////////////////*/
-
-@media screen and (max-width: 360px){
-    h1{ font-size: 1.5rem;; }
-    
-    h2{ font-size: 13px; }
-    
-    p { font-size: 11px; }
-    
-    form{ width: 50%; }
-    
-    input{
-        font-size: 10px;
-    }
-    
-    table{
-        border: solid black;
-        width: 100%;
-    }
-    
-    th{
-        display: grid;
-        border:none;
-    }
-    
-    td{
-        display: grid;   
-        border:none;
-    }
-}
-
-@media screen and (max-width: 480px) and (min-width: 361px){
-    h1{ font-size: 18px; }
-    
-    h2{ font-size: 16px; }    
-    
-    p{ font-size: 14px; }
-    
-    form{ width: 75%; }
-    
-    input{
-        font-size: 14px;
-    }
-    
-    table{
-        border: solid black;
-        width: 100%;
-    }
-    
-    th{
-        display: grid;
-        border:none;
-    }
-    
-    td{
-        display: grid;   
-        border:none;
-    }
-}
 
